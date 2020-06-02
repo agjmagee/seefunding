@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Home - Brand</title>
+    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css?h=8479beaf2aea5e6f1e09c833acc1661f">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Zilla+Slab">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Zilla+Slab+Highlight">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/assets/fonts/fontawesome5-overrides.min.css?h=2c0fc24b3d3038317dc51c05339856d0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
+    <link rel="stylesheet" href="/assets/css/styles.min.css?h=8d3acfca977b16e02389f688ca680b42">
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-md fixed-top clean-navbar" style="background-color: rgb(46,51,59);margin-bottom: 5px;">
+        <div class="container-fluid"><img class="img-fluid" src="/assets/img/SeeFunding-white.svg?h=11db23908457aac1a4b11f692a7da5b2" style="margin: auto;"><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><i class="fa fa-navicon"></i><span class="sr-only">Toggle navigation</span></button>
+            <div class="collapse navbar-collapse"
+                id="navcol-1">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="/index.html">Home</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="/loans.html">Loans</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="/Apply.html" style="/*color: #edf3f9;*/">apply</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="/about-us.html" style="/*color: #edf3f9;*/">About Us</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="/contact-us.html" style="/*color: #edf3f9;*/">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="page landing-page">
+        <section class="clean-block slider dark">
+            <div class="container">
+                <div class="block-heading">
+                    <h2 class="text-info">Apply for finance</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6 offset-3">
+                    <div class="form-group">
+                        <h1>Please fill in the form</h1>
+                    </div>
+                    <!-- Start: Custom select Bootstrap --><div>
+
+<div class="input-group mb-3 edtFormMarg">
+  <div class="input-group-prepend">
+    <label class="input-group-text" for="inputGroupSelect01">Type of loan</label>
+  </div>
+  <select class="custom-select" id="inputGroupSelect01">
+    <option selected>Choose...</option>
+    <option value="1">1. Equipment</option>
+    <option value="2">2. Property</option>
+    <option value="3">3. Business loan</option>
+    <option value="4">4. Refinance </option>
+  </select>
+</div>
+
+</div>
+                    <!-- End: Custom select Bootstrap --><label style="margin-bottom: 0px;">The amount you would like to borrow</label><input type="range"><label style="margin-bottom: 0px;">Over how long</label><input type="range"><label style="margin-bottom: 0px;">How is your credit rating?</label>
+
+                    <!-- Start: Bootstrap 4's Custom Radios & Checkboxes -->
+                    <div>
+                        <fieldset></fieldset>
+                        <fieldset></fieldset>
+                    </div>
+                    <!-- End: Bootstrap 4's Custom Radios & Checkboxes -->
+                </div>
+            </div>
+        </section>
+        <section class="clean-block slider dark">
+            <div class="container">
+                <div class="block-heading">
+                    <h2 class="text-info">Apply for finance</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-10 offset-1"><html>
+<style>
+/* The container */
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}
+</style>
+
+<head>
+    <title>Loan calculator</title>
+</head>
+
+<link rel="stylesheet" type="text/css" href="/assets/css/Styles.css?h=61f472eb1bcdcba55139cc821072a541">
+<script type="text/javascript">
+    
+    function getRadioButtonSelectedValue(ctrl){
+        for(i=0;i<ctrl.length;i++){
+            if(ctrl[i].checked) return ctrl[i].value;
+        }
+    }
+
+    function window_onload(){
+        update_values();
+    }
+
+    function onchange_slider(amount, component){
+        document.getElementById(component).value = amount;
+        
+        //put result elements as hidden
+        document.getElementById("div_final_quote").style.display = "none";
+        document.getElementById("div_table_results").style.display = "none";
+    }
+
+    function update_values(){
+        if (document.getElementById("select_loan_type").value == "property"){
+            document.getElementById("input_amount").value = document.getElementById("range_property_price").value;
+            document.getElementById("input_quote").value = document.getElementById("range_years").value;
+        }
+        else{
+            document.getElementById("input_amount").value = document.getElementById("range_amount").value;
+            document.getElementById("input_quote").value = document.getElementById("range_months").value;
+        }
+    }
+
+    function select_loan_type_onchange() {
+        
+        //put result elements as hidden
+        document.getElementById("div_final_quote").style.display = "none";
+        document.getElementById("div_table_results").style.display = "none";
+        
+        update_values();
+        
+        if (document.getElementById("select_loan_type").value == "property"){
+            document.getElementById("div_property_price").style.display = "block";
+            document.getElementById("div_years").style.display = "block";
+            document.getElementById("div_amount").style.display = "none";
+            document.getElementById("div_months").style.display = "none";
+            document.getElementById("div_rate_range").style.display = "block";
+            document.getElementById("div_rate_option").style.display = "none";
+        }else{
+            document.getElementById("div_property_price").style.display = "none";
+            document.getElementById("div_years").style.display = "none";
+            document.getElementById("div_amount").style.display = "block";
+            document.getElementById("div_months").style.display = "block";
+            document.getElementById("div_rate_range").style.display = "none";
+            document.getElementById("div_rate_option").style.display = "block";
+            
+            
+            // ****************************************************************** //
+            // *                                                                * //
+            // *   We change the value according to the type of loan selected   * //
+            // *                                                                * //
+            // ****************************************************************** //
+            if (document.getElementById("select_loan_type").value == "equipment"){
+                document.getElementById("range_months").step = 12;
+            }else{
+                document.getElementById("range_months").step = 1;
+            }
+        }
+
+    }
+    
+    function getTasa(tasa, tasa_tipo, periodo) {
+        tasa = tasa / 12
+        tasa = tasa / 100.0
+        return tasa;
+    }
+    
+    function getValorDeCuotaFija(amount, tasa, cuotas, periodo, tasa_tipo) {
+        tasa = getTasa(tasa, tasa_tipo, periodo);
+        valor = amount *( (tasa * Math.pow(1 + tasa, cuotas)) / (Math.pow(1 + tasa, cuotas) - 1) );
+        return valor.toFixed(2);
+    }
+    
+    function getAmortizacion(amount, tasa, cuotas, periodo, tasa_tipo) {
+        var valor_de_cuota = getValorDeCuotaFija(amount, tasa, cuotas, periodo, tasa_tipo);
+        var saldo_al_capital = amount;
+        var items = new Array();
+    
+        for (i=0; i < cuotas; i++) {
+            interes = saldo_al_capital * getTasa(tasa, tasa_tipo, periodo);
+            abono_al_capital = valor_de_cuota - interes;
+            saldo_al_capital -= abono_al_capital;
+            numero = i + 1;
+            
+            interes = interes.toFixed(2);
+            abono_al_capital = abono_al_capital.toFixed(2);
+            saldo_al_capital = saldo_al_capital.toFixed(2);
+    
+            item = [numero, interes, abono_al_capital, valor_de_cuota, saldo_al_capital];
+            items.push(item);
+        }
+        return items;
+    }
+    
+    function setMoneda(num, bCents) {
+        num = num.toString().replace(/\£|\,/g, '');
+        if (isNaN(num)) num = "0";
+        sign = (num == (num = Math.abs(num)));
+        num = Math.floor(num * 100 + 0.50000000001);
+        cents = num % 100;
+        num = Math.floor(num / 100).toString();
+        if (cents < 10) cents = "0" + cents;
+        for (var i = 0; i < Math.floor((num.length - (1 + i)) / 3); i++)
+            num = num.substring(0, num.length - (4 * i + 3)) + ',' + num.substring(num.length - (4 * i + 3));
+        //return (((sign) ? '' : '-') + '£' + num + ((cents == "00") ? '' : '.' + cents));
+        
+        if ( bCents == true ){
+            return (((sign) ? '' : '-') + '£' + num + ('.' + cents));
+        }else{
+            return (((sign) ? '' : '-') + '£' + num);
+        }
+    }
+    
+    function asign_rate(selection, excellent, good, fair, poor){
+        if (selection == "excellent"){
+            return excellent;
+        }else if (selection == "good"){
+            return good;
+        }else if (selection == "fair"){
+            return fair;
+        }else if (selection == "poor"){
+            return poor;
+        }
+    }
+
+    function calcular() {
+        //update_values();
+        
+        var varAmount = document.getElementById("input_amount").value;
+        var cuotas = document.getElementById("input_quote").value;
+        var tasa = document.getElementById("input_rate").value;
+        var selected_rate = getRadioButtonSelectedValue(document.frmCalculator.radio_rate);
+        
+        if (parseInt(cuotas) > 3000) { 
+            alert("Please, reduce the period of time. It should be less than 3,000"); 
+            return; 
+        }
+        
+        periodo = "monthly";
+        tasa_tipo = "yearly";
+        
+        //Here is the rate configuration:
+        if (document.getElementById("select_loan_type").value == "property"){
+            cuotas = cuotas * 12;
+        }else if (document.getElementById("select_loan_type").value == "equipment"){
+            tasa = asign_rate (selected_rate, "6.50", "10.00", "15.00", "20.00");
+        }else if (document.getElementById("select_loan_type").value == "business_loan"){
+            tasa = asign_rate (selected_rate, "9.00", "15.00", "25.00", "40.00");
+        }else if (document.getElementById("select_loan_type").value == "refinance"){
+            tasa = asign_rate (selected_rate, "8.00", "11.00", "16.00", "21.00");
+        }
+
+        var items = getAmortizacion(varAmount, tasa, cuotas, periodo, tasa_tipo);
+        var tbody = document.getElementById("tbody_1");
+        tbody.innerHTML = "";
+        
+        //put result elements as visible
+        document.getElementById("div_final_quote").style.display = 'block';
+        document.getElementById("div_table_results").style.display = 'block';
+        
+        for (i = 0; i < items.length; i++) {
+            item = items[i];
+            tr = document.createElement("tr");
+            for (e = 0; e < item.length; e++) {
+                value = item[e];
+                if (e > 0) { value = setMoneda(value, true); }
+                td = document.createElement("td");
+                textCell = document.createTextNode(value);
+                td.appendChild(textCell);
+                tr.appendChild(td);
+            }
+            tbody.appendChild(tr);
+        }
+        var div1 = document.getElementById("div-valor-cuota");
+
+        valor = setMoneda(items[0][3], true);
+        div1.innerHTML = valor;
+        var msg = "";
+
+        if (periodo == "monthly") msg = " months";
+        if (periodo == "yearly") msg = " years";
+        
+        msg = "You will pay " + valor + ", " + periodo + " during " + items.length + msg ;
+        
+        var div2 = document.getElementById("div-comment");
+        div2.innerHTML = msg;
+    }
+    
+</script>
+
+<body onload="window_onload();" >
+    <form name="frmCalculator">
+        <div id="div_calculator">
+            <fieldset style="margin-bottom: 10px;">
+                <legend>Please, fill the data</legend>   
+                <div style="float: left; padding: 10px;">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        Type of loan:<br>
+                                        <select id="select_loan_type" class="custom-select" style="width: 100%" onchange="select_loan_type_onchange();">
+                                            <option value="equipment">1. Equipment</option>
+                                            <option value="property">2. Property</option>
+                                            <option value="business_loan">3. Business Loan</option>
+                                            <option value="refinance">4. Refinance</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="hidden" name="input_amount" id="input_amount" style="width: 100%">
+                                        <div name="div_amount" id="div_amount" style="display: block">
+                                            The amount you would like to borrow:<br>
+                                            <input type="range" name="range_amount" id="range_amount" min="5000" max="350000" step="2000"
+                                                    onchange="onchange_slider(this.value, 'input_amount');"
+                                                    value="5000" style="width: 60%" oninput="output_amount.value = setMoneda(this.value, false)">
+                                            <output name="output_amount" id="output_amount">£5,000</output>
+                                        </div>
+                                        <div name="div_property_price" id="div_property_price" style="display: none">
+                                            Property price:<br>
+                                            <input type="range" name="range_property_price" id="range_property_price" min="50000" max="900000" step="15000"
+                                                    onchange="onchange_slider(this.value, 'input_amount');"
+                                                    value="50000" style="width: 60%" oninput="output_property_price.value = setMoneda(this.value, false)">
+                                            <output name="output_property_price" id="output_property_price">£50,000</output>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        Over how long:<br>
+                                        <input type="hidden" name="cuotas" id="input_quote" style="width: 100%">
+                                        <div name="div_months" id="div_months" style="display: block">
+                                            <input type="range" name="range_months" id="range_months" min="12" max="84" step="12" onchange="onchange_slider(this.value, 'input_quote');"
+                                                    value="12" style="width: 60%" oninput="output_months.value = this.value + ' months'">
+                                            <output name="output_months" id="output_months">12 months</output>
+                                        </div>
+                                        <div name="div_years" id="div_years" style="display: none">
+                                            <input type="range" name="range_years" id="range_years" min="1" max="35" step="1" onchange="onchange_slider(this.value, 'input_quote');"
+                                                    value="1" style="width: 60%" oninput="output_years.value = this.value + ' years'">
+                                            <output name="output_years" id="output_years">1 year</output>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div name="div_rate_range" id="div_rate_range" style="display: none">
+                                            Interest rate:<br>
+                                            <input type="range" name="input_rate" id="input_rate" min="5.00" max="10.00" step="0.25"
+                                                    value="5.00" style="width: 60%" oninput="output_range.value = this.value + '%'">
+                                            <output name="output_range" id="output_range">5.00%</output>
+                                        </div>
+                                        <div name="div_rate_option" id="div_rate_option" style="display: block">
+                                            How is your credit rating?<br>
+                                            
+                                       <label class="container">
+                                         <input type="radio" name="radio_rate" id="radio_rate" value="excellent"> Excellent<br>
+                                         <span class="checkmark"></span>
+                                       </label>
+                                       <label class="container">
+                                         <input type="radio" name="radio_rate" id="radio_rate" value="good" checked="checked" > Good<br>
+                                         <span class="checkmark"></span>
+                                       </label>
+                                       <label class="container">
+                                         <input type="radio" name="radio_rate" id="radio_rate" value="fair"> Fair<br>
+                                         <span class="checkmark"></span>
+                                       </label>
+                                       <label class="container">
+                                         <input type="radio" name="radio_rate" id="radio_rate" value="poor"> Poor
+                                         <span class="checkmark"></span>
+                                       </label>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th><input type="button" value="Calculate" onclick="calcular();" class="btn btn-primary" style="height: 50px; width: 300px"></th>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                
+                <div name="div_final_quote" id="div_final_quote" style="float: left; padding: 10px; text-align: center; display: none">
+                    <div>Quote</div>
+                    <div id="div-valor-cuota" style="font-weight: bold"></div>
+                    <br>
+                    <div style="padding: 10px; border: 1px dashed gray; background-color: #0d4393; color: white; 
+                                border-radius: 10px; -webkit-box-shadow: 10px 10px 60px 0px rgba(0,0,0,0.38);
+                                -moz-box-shadow: 10px 10px 60px 0px rgba(0,0,0,0.38);
+                                box-shadow: 10px 10px 60px 0px rgba(0,0,0,0.38);" id="div-comment">
+                    </div>
+                 </div>
+                
+            </fieldset>
+       
+            
+            <div name="div_table_results" id="div_table_results" style="display: none">
+                <table id="table-2" style="width: 100%; text-align: right; border: 1px gray solid; border-collapse: collapse">
+                    <caption>Schedule of Payments</caption>
+                        <tr>
+                            <th>N.</th>
+                            <th>Interest per month</th>
+                            <th>Capital per month</th>
+                            <th>Total payment</th>
+                            <th>Balance</th>
+                        </tr>
+                    <tbody id="tbody_1">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </form>
+</body>
+</html></div>
+            </div>
+        </section>
+    </main>
+    <footer class="page-footer dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <h5>Get started</h5>
+                    <ul>
+                        <li><a href="/loans.html">Business Loans</a></li>
+                        <li><a href="/Apply.html">Apply</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h5>About us</h5>
+                    <ul>
+                        <li><a href="/about-us.html">Company Information</a></li>
+                        <li><a href="/contact-us.html">Contact us</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h5>Legal</h5>
+                    <ul>
+                        <li><a href="/Complaints.html">Complaints</a></li>
+                        <li><a href="/Privacy.html">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h5>Contact us</h5>
+                    <p style="color: #ffffff;">Seefunding Limited<br><a href="https://bootstrapstudio.io/app/Complaints.html">24 Piries Place</a><br>H<a href="https://bootstrapstudio.io/app/Complaints.html">orsham</a><br><a href="https://bootstrapstudio.io/app/Complaints.html">West Sussex</a>&nbsp;<br>
+                        <a
+                            href="https://bootstrapstudio.io/app/Complaints.html">H12 1EH</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>© 2020 Seefunding</p>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
+    <script src="/assets/js/script.min.js?h=eca3254f775cb91ad4648ef656a1c117"></script>
+</body>
+
+</html>
